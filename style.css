@@ -106,7 +106,10 @@ table{
     margin: 0 0 10px 20px;
 }
 
-@media (max-width: 400px) (device-width: 400px){
+@media (max-width: 400px) {
+    html {
+        background: olive;
+    }
     .pic{
         width: fit-content;
     }
@@ -124,4 +127,4 @@ table{
         font-size: 30px;
         background-color: olive;
     }
-    }
+}
